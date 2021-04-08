@@ -299,6 +299,16 @@ export default {
           {
             label: "ACL4SSR",
             options: [
+	      {
+                label: "melon's normal rules",
+                value:
+                  "https://raw.githubusercontent.com/kettly1260/clash-scholar.google/master/config/ACL4SSR_Online_scholar_google.ini"
+              },
+	      {
+                label: "melon's AD rules",
+                value:
+                  "https://raw.githubusercontent.com/kettly1260/clash-scholar.google/master/config/ACL4SSR_Online_Full_AdblockPlus_scholar_google.ini"
+              },
               {
                 label: "ACL4SSR_Online 默认版 分组比较全(与Github同步)",
                 value:
